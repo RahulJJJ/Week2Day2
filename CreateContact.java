@@ -17,8 +17,8 @@ public class ContactTab {
 		driver.findElement(By.linkText("CRM/SFA")).click();
 		driver.findElement(By.linkText("Contacts")).click();
 		driver.findElement(By.linkText("Create Contact")).click();
-		driver.findElement(By.id("firstNameField")).sendKeys("dhanasekaran");
-		driver.findElement(By.id("lastNameField")).sendKeys("venkatesan");
+		driver.findElement(By.id("firstNameField")).sendKeys("Rahul");
+		driver.findElement(By.id("lastNameField")).sendKeys("jayaraman");
 		driver.findElement(By.className("smallSubmit")).click();
 		String A= driver.findElement(By.id("viewContact_firstName_sp")).getText();
 		System.out.println(A);
